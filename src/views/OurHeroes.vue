@@ -1,17 +1,16 @@
 <template>
-  <div class="home">
-    <Form />
+  <div class="heroes-list-cont">
+    <List />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Form from '@/components/Form'
+import List from '@/components/List'
 
 export default {
   name: 'Home',
   components: {
-    Form
+    List
   }
 }
 </script>
